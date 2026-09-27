@@ -25,7 +25,7 @@ This package contains everything needed to build, present, and defend the HR Att
 ### `data/` — the star schema (Task 1)
 Eleven CSVs, already built from the original Excel export: `Fact_Employee` (1,470 rows, keys + numbers only) and ten dimension tables (`Dim_Department`, `Dim_JobRole`, `Dim_EducationField`, `Dim_Education`, `Dim_BusinessTravel`, `Dim_EmployeeProfile`, `Dim_AgeBand`, `Dim_TenureBand`, `Dim_IncomeBand`, `Dim_ExperienceLevel`). Load these into Power BI Desktop directly, or rebuild the model yourself in Power Query following the guide below — `scripts/build_star_schema.py` is the script that generated them, useful as a reference for the transformation logic.
 
-![Data model](Assets/Data Model.png)
+![Data model](Assets/Data-Model.png)
 
 ### `01_Build_Guide_PowerBI.md`
 Step-by-step, beginner-level instructions to load the data, build the relationships in Model view, sort the band columns correctly, and lay out a first version of the 3-page report.
